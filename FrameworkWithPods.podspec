@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "This will do something mind blowing."
 
-  s.description  = "Mind started blowing already"
+  s.description  = "Mind started blowing already, Smoking"
 
   s.homepage     = "https://github.com/himanshuNamdeoPB/FrameworkWithPods"
 
@@ -16,8 +16,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/himanshuNamdeoPB/FrameworkWithPods.git", :tag => "#{s.version}" }
 
-  s.source_files  = "FrameworkWithPods", "FrameworkWithPods/**/*.{h,m}"
+  s.source_files  = "**/*.{swift}"
 
   s.requires_arc = true
+ s.static_framework = true
+
 
 end
